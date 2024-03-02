@@ -19,7 +19,7 @@ const App = () => {
   };
 
   return (
-    <div className="container mx-auto">
+    <div>
       <SearchBar onSearch={handleSearch} />
       <BookList books={searchResults} />
     </div>
