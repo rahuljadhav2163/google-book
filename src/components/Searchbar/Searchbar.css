@@ -1,0 +1,17 @@
+.search{
+    height: 30px;
+    width: 400px;
+    font-size: 20px;
+    background-color: #00001a;
+    color: white;
+    border-radius: 5px;
+}
+.search-btn{
+    height: 35px;
+    width: 80px;
+    margin-left: 20px;
+    font-size: 20px;
+    background-color: #4d79ff;
+    color: white;
+    border-radius: 5px;
+}

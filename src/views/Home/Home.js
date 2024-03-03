@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import SearchBar from './../../components/Searchbar/Searchbar';
 import BookList from './../../components/Booklist/Booklist';
-
-const App = () => {
+import "./Home.css"
+const Home = () => {
   const [searchResults, setSearchResults] = useState([]);
 
   const handleSearch = async (searchTerm) => {
@@ -20,10 +20,16 @@ const App = () => {
 
   return (
     <div>
+      <p className='heading'>Google Book Store</p>
+      <p className='heading-search'>Search Your Book Here 👇</p>
+      <div className='search-container'>
       <SearchBar onSearch={handleSearch} />
+      </div>
+      <div className='book-containers'>
       <BookList books={searchResults} />
+      </div>
     </div>
   );
 };
 
-export default App;
+export default Home;

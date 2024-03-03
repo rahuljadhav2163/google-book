@@ -1,0 +1,17 @@
+.heading{
+    text-align: center;
+    font-size: 40px;
+}
+.heading-search{
+    text-align: center;
+    font-size: 20px;
+}
+.search-container{
+margin-left: 520px;
+margin-top: 60px;
+}
+.book-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
