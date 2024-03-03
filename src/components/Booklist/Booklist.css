@@ -19,3 +19,8 @@
 .book-author{
     text-align: center;
 }
+@media only screen and (max-width: 767px) {
+    .book-card{
+        margin-left: 50px;
+    }
+  }
